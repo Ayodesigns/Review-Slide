@@ -1,0 +1,77 @@
+* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body{
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			height: 100vh;
+			background: #f4f1f5;
+		}
+
+		h1 {
+			color: #222;
+			font-size: 2.5rem;
+			margin-bottom: 1px;
+			text-align: center;
+		}
+
+		main {
+			position: relative;
+			top: 10%;
+		}
+
+		hr {
+			height: 4px;
+			width: 12rem;
+			position: relative;
+			left: 33%;
+			background: skyblue;
+			border: none;
+			margin-bottom: 6rem;
+		}
+
+		.card {
+			background: #fff;
+			filter: drop-shadow(0px 5px 5px skyblue);
+			height: 20rem;
+			width: 35rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		svg:active {
+			border: 2px solid skyblue;
+		}
+
+		.left {
+			transform: rotate(180deg);
+			margin-right: 10px;
+		}
+		.author {
+			text-align: center;
+		}
+
+		.job {
+			text-transform: uppercase;
+			color: skyblue;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		.review {
+			color: #bbb;
+			font-style: italic;
+			width: 70%;
+			text-align: center;
+			margin-bottom: 15px;
+		}
+
+		.model {
+			height: 85px;
+			width: 100px;
+		}
